@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> Номер телефона:
+ <title>жок</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ background: #f4f6f7;
+ }
+ form {
+ width: 400px;
+ margin: 20px auto;
+ padding: 20px;
+ background: white;
+ border-radius: 8px;
+ box-shadow: 0 0 10px gray;
+ }
+ label {
+ display: block;
+ margin: 10px 0 5px;
+ font-weight: bold;
+ }
+ input, select, textarea {
+ width: 100%;
+ padding: 8px;
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ }
+ button {
+ background: navy;
+ color: white;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ button:hover {
+ background: darkblue;
+ }
+ </style>
+</head>
+<body>
+ <form>
+    <h2>Зарегистрироваться</h2>
+ 
+ <label for="name">ФИО:</label>
+ <input type="text" id="name" name="name" required>
+ 
+ <label for="email">Электронная почта:</label>
+ <input type="email" id="email" name="email" required>
+ 
+ <label for="password">Пароль:</label>
+ <input type="password" id="password" name="password" required>
+
+ <label for="password">Повторите пароль:</label>
+ <input type="password" id="password" name="password" required>
+ 
+ <label for="birth">Дата рождения:</label>
+ <input type="date" id="birth" name="birth">
+ 
+ <label>Пол:</label>
+ <input type="radio" name="gender" value="male"> Мужчина 
+ <input type="radio" name="gender" value="female"> Женщина <br>
+ <a href="vhod.html" target="_blank">
+    <button type="button">Зарегистрироваться</button>
+</a>
+</body>
+</html>

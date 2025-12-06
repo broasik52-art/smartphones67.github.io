@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Топ 10 смартфонов по AnTuTu</title>
+</head>
+<body bgcolor="black">
+<button id="toTopBtn" class="to-top">↑</button>
+<script>
+    const btn = document.getElementById("toTopBtn");
+    window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 350) {
+            btn.style.display = "flex";
+        } else {
+            btn.style.display = "none";
+        }
+    });
+    btn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+<style>
+  .to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2e8b57, #c7ff00);
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    display: none; /* Изначально скрыта */
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    z-index: 9999;
+}
+
+.to-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0
+}
+</style>
+  <h1 style="color: aliceblue;">Топ 10 смартфонов по AnTuTu (2025)</h1>
+
+  <table border="1" cellspacing="0" cellpadding="8" style="color: aliceblue;">
+    <tr>
+      <th>Место</th>
+      <th>Смартфон</th>
+      <th>Баллы AnTuTu</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Red Magic 10S Pro+</td>
+      <td>2 370 000</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Vivo X200 Ultra</td>
+      <td>2 280 000</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>iQOO Neo 10 Pro+</td>
+      <td>2 250 000</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>OnePlus Ace 5 Pro</td>
+      <td>2 200 000</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>Vivo X200s</td>
+      <td>2 180 000</td>
+    </tr>
+
+    <tr>
+      <td>6</td>
+      <td>OPPO Find X8 Ultra</td>
+      <td>2 150 000</td>
+    </tr>
+
+    <tr>
+      <td>7</td>
+      <td>iQOO 13</td>
+      <td>2 120 000</td>
+    </tr>
+
+    <tr>
+      <td>8</td>
+      <td>Honor GT Pro</td>
+      <td>2 100 000</td>
+    </tr>
+
+    <tr>
+      <td>9</td>
+      <td>OPPO Find X8s+</td>
+      <td>2 080 000</td>
+    </tr>
+
+    <tr>
+      <td>10</td>
+      <td>Vivo X200s</td>
+      <td>2 070 000</td>
+    </tr>
+  </table>
+
+  <p style="color: aliceblue;"><i>Источник: рейтинг AnTuTu, июль 2025 года.</i></p>
+  <h3 align="right" style="color: white;">Самый дорогой телефон. Полюбуемся</h3>
+    <img class="samyid" src="https://m.economictimes.com/thumb/msid-97224070,width-1200,height-1200,resizemode-4,imgsize-27626/worlds-most-costly-iphone-worth-crores-check-price-details.jpg"
+    style="height: 700px; width:auto; top: 400px" align="right">
+    <h2 style="color: aliceblue;">Invert фильтрі мысалы</h2>
+    <img src="https://m.economictimes.com/thumb/msid-97224070,width-1200,height-1200,resizemode-4,imgsize-27626/worlds-most-costly-iphone-worth-crores-check-price-details.jpg" style="filter: invert(100%);" width="500">
+<iframe width="700" height="400" src="https://www.youtube.com/embed/CuESvahGnSM" title="САМЫЙ ДОРОГОЙ ТЕЛЕФОН В МИРЕ! САМЫЙ ДОРОГОЙ СМАРТФОН!Vertu Signature Cobra и SuperNova iPhone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

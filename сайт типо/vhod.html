@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            opacity: 0;
+            animation: fadeIn 2s ease-in forwards;
+            font-size: 48px;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1d6fa5;
+            transform: scale(1.1);
+        }
+        img {
+            width: 220px;
+            margin-top: 30px;
+            transition: transform 1s ease;
+        }
+
+        img:hover {
+            transform: rotate(180deg);
+        }
+
+    </style>
+<div class="container">
+    <h1>Добро пожаловать!</h1>
+    <a href="store.html"><button>go</button>
+    <div>
+        <img src="https://img-webcalypt.ru/storage/memes/28522/20251/JZYUU4HM9Xgvjc52GgzAOB4H4JUNGHw6WCeaSaIzatoIsIxZb183fAJ1wSsIXUI8qb0U93LEQOS83GY7QnoLNjR4XwYtel8ZYJ2XFB5Ka2NXm4qCeYzNfmIczz8L9wxO.jpeg">
+    </div>
+</div>
+</body>
+</html>
